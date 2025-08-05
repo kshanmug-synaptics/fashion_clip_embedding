@@ -10,6 +10,10 @@ This project provides a pipeline for extracting image embeddings from the DeepFa
 2. **Install dependencies:**
 
 ```bash
+git clone git@gitlab.synaptics.com:kshanmug/fashion_embedding.git
+cd fashion_embedding
+virtualvenv .venv
+source .venv/bin/activate (in Linux)
 pip install -r requirements.txt
 ```
 
