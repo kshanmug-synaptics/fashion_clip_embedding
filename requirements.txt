@@ -1,0 +1,10 @@
+torch
+transformers
+bitsandbytes
+onnx
+onnxruntime
+datasets
+scikit-learn
+matplotlib
+tqdm
+Pillow
