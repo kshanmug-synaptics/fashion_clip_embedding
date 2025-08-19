@@ -4,7 +4,7 @@ from PIL import Image
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 
-def load_deepfashion_images(split="train[:1000]", cache_dir="./cache/datasets"):
+def load_deepfashion_images(split="train[:10000]", cache_dir="./cache/datasets"):
     ds = load_dataset(
         "lirus18/deepfashion",
         split=split,
